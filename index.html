@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>To do list</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<main class="container">
+		<h1>Редактор планов на день</h1>
+		<form id="card-form" class="controls" autocomplete="off">
+			<input 
+			id="card-input"
+			class="input" 
+			type="text"
+			placeholder="Введите текст карточки"
+			aria-lable="Текст новой карточки" 
+			/>
+			<button id="add-btn" class="btn" type="submit" aria-lable="Добавить карточку">Добавить</button>
+			<button id="clear-btn" class="btn btn-secondary" type="button" aria-lable="Очистить все карточки">Очистить всё</button>
+		</form>
+		<section aria-live="polite" aria-atomic="true">
+			<h2 class="sr-only">Список карточек</h2>
+			<div id="cards" class="cards" role="list"></div>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
