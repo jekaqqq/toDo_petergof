@@ -1,9 +1,9 @@
 :root {
-	--bg: #f5f7fb;
-	--fg: #1f2937;
+	--bg: #f5f4fb;
+	--fg: #1f2437;
 	--muted: #6b7280;
-	--primary: #4f46e5;
-	--primary-hover: #4338ca;
+	--primary: #4f48e5;
+	--primary-hover: #4538ca;
 	--danger: #ef4444;
 	--card: #ffffff;
 	--ring: rgba(79, 70, 229, 0.35);
